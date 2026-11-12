@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: ghcr.io/ifrosty04/gitops-portfolio-project:f50914d4a57d47f5b93794008cbacf500cf9ea48
+        image: ghcr.io/ifrosty04/gitops-portfolio-project:0b1a5610e114fbaff892926029c244b3022ddb82
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
