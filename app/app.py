@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    version = os.environ.get('APP_VERSION', '1.0.0')
+    version = os.environ.get('APP_VERSION', '2.0.0')
     hostname = socket.gethostname()
     return f"GitOps Pipeline Active!\nVersion: {version}\nPod: {hostname}\n"
 
